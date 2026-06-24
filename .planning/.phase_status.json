@@ -1,0 +1,37 @@
+{
+  "job_id": "JOB-20260624151259-000107",
+  "worker_dir": "/home/deploy/squad/build-worker/JOB-20260624151259-000107",
+  "completed": true,
+  "results": {
+    "1": {
+      "status": "partial",
+      "file": "/home/deploy/squad/build-worker/JOB-20260624151259-000107/.planning/phases/1-project-overview/PLAN-01.md"
+    },
+    "2": {
+      "status": "ok",
+      "file": "/home/deploy/squad/build-worker/JOB-20260624151259-000107/.planning/phases/2-technical-stack/PLAN-01.md"
+    },
+    "3": {
+      "status": "ok",
+      "file": "/home/deploy/squad/build-worker/JOB-20260624151259-000107/.planning/phases/3-architecture/PLAN-01.md"
+    },
+    "4": {
+      "status": "ok",
+      "file": "/home/deploy/squad/build-worker/JOB-20260624151259-000107/.planning/phases/4-data-model/PLAN-01.md"
+    },
+    "5": {
+      "status": "ok",
+      "file": "/home/deploy/squad/build-worker/JOB-20260624151259-000107/.planning/phases/5-project-structure/PLAN-01.md"
+    },
+    "6": {
+      "status": "ok",
+      "file": "/home/deploy/squad/build-worker/JOB-20260624151259-000107/.planning/phases/6-out-of-scope/PLAN-01.md"
+    },
+    "7": {
+      "status": "partial",
+      "file": "/home/deploy/squad/build-worker/JOB-20260624151259-000107/.planning/phases/7-ui/ux/PLAN-01.md"
+    }
+  },
+  "tech_stack": "Database:** Supabase (PostgreSQL 15+), Backend services:** Supabase Edge Functions (Deno) or Python, Migrations:** Supabase CLI / `supabase/migrations/*.sql`, Schema design:** SQL DDL with temporal patterns, Testing:** pgTAP, real seed data, Tooling:** Supabase Studio, psql, pg_dump",
+  "ts": 1782314263.6556494
+}

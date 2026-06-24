@@ -1,0 +1,68 @@
+# Senior Supabase Database Architect — Operational Data Foundation
+
+**Built by: KMan | AI-Augmented Engineering Factory**
+
+## 1. Overview
+
+A database architecture project for an operations-data platform that captures, structures, and preserves operational data across multiple systems. The challenge is not building tables — it's creating a structure that enables future analysis of: what happened, why it happened, what changed, and what caused the change.
+
+The output is a production-ready Supabase (PostgreSQL) schema that supports:
+- Event-sourced operational data capture
+- Temporal queries (point-in-time, change tracking)
+- Causal analysis (which action caused which effect)
+- Reporting / analytics on top of structured operational history
+- A foundation that survives scale
+
+This is a database-architecture consulting engagement (1-3 months, expert tier).
+
+## 2. Technical Stack
+
+- **Database:** Supabase (PostgreSQL 15+)
+- **Backend services:** Supabase Edge Functions (Deno) or Python
+- **Migrations:** Supabase CLI / `supabase/migrations/*.sql`
+- **Schema design:** SQL DDL with temporal patterns
+- **Testing:** pgTAP, real seed data
+- **Tooling:** Supabase Studio, psql, pg_dump
+
+## 3. Scope
+
+### Phase 1 — Discovery & Requirements Modeling
+- Map operational data sources
+- Define entity-relationship model
+- Identify temporal/causal requirements
+
+### Phase 2 — Schema Design
+- Core operational tables
+- Event log + audit trail
+- Temporal/period tables for change tracking
+- Reference data + slowly-changing dimensions
+
+### Phase 3 — Implementation
+- SQL migrations
+- Row-Level Security policies
+- Indexes for analytical queries
+- Seed/test data
+
+### Phase 4 — Documentation & Handoff
+- Schema diagram (ERD)
+- Migration guide
+- Operational runbook
+- Sample analytical queries
+
+## 4. Deliverables
+
+- Production-ready PostgreSQL schema (Supabase)
+- Migration scripts
+- RLS policies
+- ERD documentation
+- Sample queries demonstrating causal/temporal analysis
+- README with onboarding guide
+
+## 5. Acceptance Criteria
+
+- Schema supports event sourcing pattern
+- Temporal queries (point-in-time) return correct results
+- Causal analysis queries are efficient (<1s for typical workload)
+- RLS policies enforce tenant isolation
+- All migrations are reversible
+- Documentation includes runbook for common operations
