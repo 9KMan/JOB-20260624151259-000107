@@ -1,0 +1,60 @@
+{
+  "title": "Senior Supabase Database Architect | Systems Thinking",
+  "url": "https://www.upwork.com/jobs/~022069767704498945714",
+  "budget": "$55-$70/hr",
+  "duration": "1 to 3 months",
+  "hours": "More than 30 hrs/week",
+  "skills": [
+    "Real Estate",
+    "Database Architecture",
+    "Python",
+    "SQL",
+    "Software Architecture & Design",
+    "Supabase",
+    "PostgreSQL"
+  ],
+  "description": "Most database projects fail because they optimise for storage rather than understanding. We are building a system that captures, structures, and preserves operational data across multiple systems. The challenge is not building tables. The challenge is creating a structure that allows future analysis of: What happened, Why it happened, What changed, What caused the change. The person we hire will help design the foundation that future reporting, automation, and intelligence systems will depend on. You will likely enjoy this role if: You think in systems rather than components. You challenge assumptions before building solutions. You enjoy designing structures that survive scale. You have personally designed complex database architectures. You care about cause and effect. You can explain trade-offs clearly.",
+  "screening_questions": [
+    "Reality First \u2014 Describe the most difficult database architecture problem you personally solved.",
+    "What assumptions did you challenge in that architecture?",
+    "What constraints existed, and what alternatives did you consider?",
+    "A business has plenty of enquiries, plenty of viewings, very few reservations. What are the first three things you would investigate and why?"
+  ],
+  "client": "Unknown (consulting firm)",
+  "cto_approved": true,
+  "ceo_approved": false,
+  "proposal_sent": false,
+  "tech_stack": [
+    "Real Estate",
+    "Database Architecture",
+    "Python",
+    "SQL",
+    "Software Architecture & Design",
+    "Supabase",
+    "PostgreSQL"
+  ],
+  "job_id": "JOB-20260624151259-000107",
+  "created_at": "2026-06-24T15:12:59.425238+00:00",
+  "_version": 8,
+  "retry_count": 0,
+  "history": [],
+  "build_issue_id": null,
+  "confidence": 0.0,
+  "tags": [],
+  "full_description": "Most database projects fail because they optimise for storage rather than understanding. We are building a system that captures, structures, and preserves operational data across multiple systems. The challenge is not building tables. The challenge is creating a structure that allows future analysis of: What happened, Why it happened, What changed, What caused the change. The person we hire will help design the foundation that future reporting, automation, and intelligence systems will depend on. You will likely enjoy this role if: You think in systems rather than components. You challenge assumptions before building solutions. You enjoy designing structures that survive scale. You have personally designed complex database architectures. You care about cause and effect. You can explain trade-offs clearly.",
+  "lead_url": "",
+  "github_url": "https://github.com/9KMan/JOB-20260624151259-000107",
+  "github_repo": "9KMan/JOB-20260624151259-000107",
+  "ceo_review_issue_id": "5dc8c7e7-15d4-47d5-a97c-5802e0831b15",
+  "state": "BUILDING",
+  "updated_at": "2026-06-24T15:19:52.341706+00:00",
+  "ceo_verdict": {
+    "verdict": "a",
+    "label": "APPROVED",
+    "confidence": "high",
+    "stored_at": "2026-06-24T15:21:48.222900+00:00"
+  },
+  "assignee": null,
+  "assigned_at": null,
+  "cto_approved_at": "2026-06-24T15:21:54.529513+00:00"
+}
