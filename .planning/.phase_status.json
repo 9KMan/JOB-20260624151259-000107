@@ -33,5 +33,5 @@
     }
   },
   "tech_stack": "Database:** Supabase (PostgreSQL 15+), Backend services:** Supabase Edge Functions (Deno) or Python, Migrations:** Supabase CLI / `supabase/migrations/*.sql`, Schema design:** SQL DDL with temporal patterns, Testing:** pgTAP, real seed data, Tooling:** Supabase Studio, psql, pg_dump",
-  "ts": 1782314263.6556494
+  "ts": 1782314346.1854596
 }
