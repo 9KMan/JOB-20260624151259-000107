@@ -1,5 +1,7 @@
 markdown
 // docs/schema.md
+markdown
+// docs/schema.md
 # Schema Overview
 
 This document describes the operational data schema used by the platform. The schema is event-sourced: every change to operational state is recorded as an immutable event, and current state is materialized from that event log.
@@ -17,4 +19,5 @@ The schema supports both point-in-time and range queries over operational histor
 ### Point-in-time
 
 Return everything we knew about a subject as of a given moment:
+
 

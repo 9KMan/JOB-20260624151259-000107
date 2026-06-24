@@ -1,5 +1,7 @@
 python
 // scripts/migrate.py
+python
+// scripts/migrate.py
 """Apply Supabase migrations in order."""
 import os
 from pathlib import Path
@@ -30,4 +32,5 @@ def run_migrations() -> None:
 if __name__ == '__main__':
     run_migrations()
     print('All migrations applied.')
+
 

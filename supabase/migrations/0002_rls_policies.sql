@@ -1,4 +1,5 @@
 // supabase/migrations/0002_rls_policies.sql
+// supabase/migrations/0002_rls_policies.sql
 -- 0002_rls_policies.sql
 -- Row-level security for tenant isolation.
 
@@ -16,4 +17,5 @@ CREATE POLICY service_role_all ON entities
   TO service_role
   USING (true)
   WITH CHECK (true);
+
 

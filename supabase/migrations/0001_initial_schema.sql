@@ -1,4 +1,5 @@
 // supabase/migrations/0001_initial_schema.sql
+// supabase/migrations/0001_initial_schema.sql
 -- 0001_initial_schema.sql
 -- Core operational data tables with temporal/causal support.
 
@@ -35,4 +36,5 @@ CREATE TABLE entities (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
 
