@@ -1,3 +1,5 @@
+markdown
+// .planning/phases/6-out-of-scope/-SUMMARY-01.md
 # Summary: PLAN-01.md
 
 ## Overview
@@ -25,16 +27,3 @@ All code written and committed. Syntax checks passed.
 None — plan executed exactly as written.
 
 ## Key Decisions
-```file:OUT_OF_SCOPE.md
-markdown
-// OUT_OF_SCOPE.md
-# Out of Scope
-
-The following items are explicitly NOT included in this build of the
-**Senior Supabase Database Architect — Operational Data Foundation**.
-The deliverable is a production-ready Supabase (PostgreSQL 15+) schema
-with migrations, RLS policies, indexes, seed data, ERD, and a runbook —
-nothing more.
-
-## Next
-Ready for next plan in this phase.

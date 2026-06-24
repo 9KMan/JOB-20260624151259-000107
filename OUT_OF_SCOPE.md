@@ -1,5 +1,7 @@
 markdown
 // OUT_OF_SCOPE.md
+markdown
+// OUT_OF_SCOPE.md
 # Out of Scope
 
 The following items are explicitly NOT included in this build of the
@@ -168,4 +170,5 @@ they are NOT part of the current build.
   and promote them into a new `SPEC.md` and phase plan.
 - **If an excluded item is now critical:** raise it as a scope change.
   Do not silently absorb it into an existing phase.
+
 
